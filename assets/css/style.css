@@ -1,0 +1,78 @@
+:root{
+    --roboto: 'Roboto', sans-serif;
+    --playfair: 'Playfair Display', serif;
+    --brown: #67615a;
+    --small: 13px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    background: #f5f5f1;
+}
+
+div{
+    text-align: center;
+}
+
+#header{
+    margin: 30px 0 10px;
+}
+
+#header .title{
+    color: var(--brown);
+    font-family: var(--roboto);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#header .paragraph{
+    color: var(--brown);
+    font-family: var(--roboto);
+    font-size: var(--small);
+    margin-bottom: 10px;
+}
+
+#container{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 270px;
+    margin: 30px 10px 0;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card .text{
+    margin-top: -10px;
+    padding: 15px 0;
+    background: white;
+}
+
+.card .name{
+    color: var(--brown);
+    font-family: var(--playfair);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card .occupation{
+    color: var(--brown);
+    font-family: var(--roboto);
+    font-size: var(--small);
+}
